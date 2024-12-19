@@ -1,0 +1,45 @@
+# reference time: year month day hour minute second
+# (year - minumte in integer format with the usual convention, second by a real value
+2023 02 06 10 24 59
+# earthquake hypocentre: lat[deg] lon[deg] depth[km]
+38.04 37.212 7
+# number of 3c data files,unit of acceleration in m/s^2
+26 0.01
+# column of component
+# east north up
+  1    2     3
+# Note: Start and P_onset times are relative to the reference time
+#       Data_length is the usable length of data
+#       P_onset = Start + Pre-event window (>= 10s)
+#       Data_length[s] = Pre-event window (P_onset - Start) + Strong-motion signal window
+#                      + Post_event window (~ 30% of signal window)
+#                      >= Pre-event window + 100 s
+#       Sampling_interval: station dependent sampling interval 
+#
+# Station        Lat[deg]       Lon[deg]   Start[s]   P_onset[s] Data_length[s]   Sampling_interval[s]
+0122 37.4339 35.8202 0 18.3808 125.01 0.01
+0129 38.2592 36.2109 0 22.3788 112.51 0.01
+0131 37.8566 36.1153 0 18.9651 125.01 0.01
+0134 37.7443 35.8645 0 18.947 125.01 0.01
+0144 37.731 35.4597 0 19.3151 135.01 0.01
+0213 37.7967 37.9296 0 18.7829 105.01 0.01
+2310 38.5727 38.8245 0 18.5921 125.005 0.005
+2703 37.058 37.35 0 20.3019 125.01 0.01
+2704 37.0088 37.8022 0 42.681 125.01 0.01
+3801 38.6896 35.4999 0 20.0554 135.01 0.01
+3803 38.3949 35.4791 0 20.283 135.01 0.01
+3804 38.7227 36.3779 0 19.5487 125.01 0.01
+4404 38.1959 38.8739 0 19.5599 125.01 0.01
+4406 38.3439 37.9738 0 25.1387 105.01 0.01
+4409 38.5606 37.4908 0 25.7345 105.01 0.01
+4410 38.8668 37.679 0 23.075 112.51 0.01
+4412 38.5969 38.1838 0 23.3339 112.51 0.01
+4611 37.7472 37.2843 0 29.84 105.01 0.01
+4612 38.0239 36.4819 0 24.5468 105.01 0.01
+4613 37.5701 36.3574 0 21.7635 112.51 0.01
+4614 37.4851 37.2977 0 25.4618 105.01 0.01
+4624 37.5361 36.9176 0 25.9893 105.01 0.01
+5805 39.273 36.747 0 19.9499 125.01 0.01
+5807 38.7269 37.2475 0 25.4523 105.01 0.01
+5809 39.2308 37.3824 0 21.4979 125.01 0.01
+8002 37.1916 36.562 0 19.37 125.01 0.01
