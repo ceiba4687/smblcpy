@@ -18,9 +18,7 @@ def main():
         #     input_file = input("Input file name: ").strip()
         #     if not input_file:
         #         raise ValueError("No input file specified")
-        input_file = (
-            "/home/ceiba/code/smblc2023/SourceCode/smblc20230206_turkey_M77.inp"
-        )
+        input_file = "smblc20230206_turkey_M77.inp"
         # 读取数据
         print("Reading data...")
         const, gv, av, success = smgetinp(input_file)
